@@ -1,0 +1,57 @@
+@import url(/style/resetstyle.css);
+@import url(/style/header.css);
+@import url(/style/main.css);
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: clip;
+}
+
+.page {
+  flex: 1 1 auto;
+}
+
+[class*=__container] {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.text-menu {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
+.text-smole {
+  font-family: "Monrope";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.text-title {
+  font-family: "Monrope";
+  font-weight: 800;
+  font-size: 23px;
+  color: #31353B;
+}
+
+.text-inter {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.text-roboto {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+}
