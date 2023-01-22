@@ -120,27 +120,24 @@ letter-spacing: 0.01em;
 }
 .body-main-block__arrows{
     position: absolute;
-    bottom: 25px;
+    bottom: 32px;
     right: 0;
     width: 90px;
-    
+    height: 30px;
+
 
 }
-.swiper-button-next,
-.swiper-button-prev{
-    height: 23px
-}
-
 
 .body-main-block__arrow{
     background: url(/image/header/slider/left.svg) 0 0 no-repeat;
+    display: flex;
+    align-items: center;
+    
 }
 .body-main-block__arrow.swiper-button-next{
     transform: rotate(-180deg);
 }
-.swiper-button-prev::after{
-    display: none;
-}
+.swiper-button-prev::after,
 .swiper-button-next::after{
     display: none;
 }
@@ -170,4 +167,191 @@ letter-spacing: 0.01em;
 }
 .partnerts-main-block__item img{
     max-width: 100%;
+}
+
+//*******************HOw it works**********************/
+.works-block{
+    margin-top: 223px;
+}
+.text-title.works__title {
+    font-size: 2.5rem;
+    line-height: 55px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+}
+.works__title{
+    margin-bottom: 70px;
+}
+
+.works__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-works__card {
+max-width: 260px;
+max-height: 263px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.card-content-works__image {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.image-works__image{
+    max-width: 25px;
+    max-height: 25px;
+}
+.image-works {
+    background-color: #9672FF;
+}
+.image-works1 {
+    background-color: #4DDFFD;
+}
+.image-works2 {
+    background: #F2B8EC;
+box-shadow: 0px 100px 80px rgba(242, 184, 236, 0.07), 
+0px 64.8148px 46.8519px rgba(242, 184, 236, 0.0531481), 
+0px 38.5185px 25.4815px rgba(242, 184, 236, 0.0425185),
+0px 20px 13px rgba(242, 184, 236, 0.035), 0px 8.14815px 6.51852px
+rgba(242, 184, 236, 0.0274815), 0px 1.85185px 3.14815px rgba(242, 184, 236, 0.0168519);
+}
+.image-works__image {
+}
+.image-card {
+}
+.title-works.text-title{
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.card-content-works__text {
+    line-height: 26px;
+    color:#333333;
+    text-align: center;
+}
+
+//*******************FEATURE***********************//
+.page__feature {
+}
+.feature {
+    margin-top: 220px;
+}
+.feature__container {
+    
+}
+
+.feature__header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-feature {
+}
+.header-feature__content {
+    
+}
+.content-feature {
+}
+.content-feature__title.text-title {
+    color: #000000;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54.64px;
+
+}
+.content-feature__text {
+    margin-top: 15px;
+    max-width: 470px;
+}
+.content-feature__text.text-smole {
+    line-height: 24px;
+    font-size: 17px;
+}
+.header-featur__link {
+    display: block;
+    height: 65px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #F85A47;
+    text-align: center;
+    justify-content: center;
+}
+.feature__tabs {
+    margin-top: 50px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+}
+.tabs-feature__nav.text-smole{
+    font-size: 19px;
+    line-height: 26px;
+}
+.tabs-feature__nav {
+    margin-right: 50px;
+}
+.nav-tabs{
+    display: inline-block;
+    height: 38px;
+}
+.nav-tabs:hover{
+    color: #F85A47;
+    border-bottom: 2px solid #F85A47;
+}
+.tabs-feature__nav:last-child {
+    margin-right: 0px;
+}
+.feature__cards {
+
+
+}
+.cards-feature {
+    display: flex;
+    justify-content: space-between;
+}
+.cards-feature__card {
+    max-width: 370px;
+    max-height: 300px;
+    position: relative;
+}
+.cards-feature__card.text-inter{
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.card-1 {
+}
+.text-inter {
+}
+.card__button-feature {
+}
+.feature-button {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+.card__button-3d {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.d3-button {
+}
+.card-2 {
+}
+.card-3 {
 }
