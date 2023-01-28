@@ -200,8 +200,8 @@ align-items: center;
 }
 
 .card-content-works__image {
-    width: 90px;
-    height: 90px;
+    min-width: 90px;
+    min-height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -315,12 +315,15 @@ rgba(242, 184, 236, 0.0274815), 0px 1.85185px 3.14815px rgba(242, 184, 236, 0.01
 }
 .cards-feature {
     display: flex;
+    gap: 10px;
     justify-content: space-between;
 }
 .cards-feature__card {
-    max-width: 370px;
-    max-height: 300px;
+
     position: relative;
+}
+.cards-feature__card img{
+    width: 100%;
 }
 .cards-feature__card.text-inter{
     font-size: 12px;
@@ -335,19 +338,21 @@ rgba(242, 184, 236, 0.0274815), 0px 1.85185px 3.14815px rgba(242, 184, 236, 0.01
 }
 .feature-button {
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 0.8em;
+    left: 0.7em;
     background: rgba(0, 0, 0, 0.4);
     border: 1px solid #FFFFFF;
     border-radius: 5px;
+    padding: 2px 2px;
 }
 .card__button-3d {
     position: absolute;
-    top: 5%;
-    left: 25%;
+    top: 0.8em;
+    left: 7.3em;
     border: 1px solid #FFFFFF;
     border-radius: 5px;
     background: rgba(0, 0, 0, 0.4);
+    padding: 2px 5px;
 }
 .d3-button {
 }
